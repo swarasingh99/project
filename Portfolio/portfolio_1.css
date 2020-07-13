@@ -1,0 +1,83 @@
+@font-face{
+	font-family: myFont;
+	src: url('../project/aventa.otf');
+}
+body{
+	background-color: white;
+}
+header{
+	box-sizing: border-box;
+	height: 50px;
+	width: 100%;
+	margin-right: 5px;
+
+}
+#menu{
+	width:30px;
+	height: 30px;
+	float: right;
+	margin: 5px;
+	margin-right: 5px;
+}
+#ss{
+	float:left;
+	width:40px;
+	height: 40px;	
+	margin: 5px;
+}
+
+#colorbox{
+	box-sizing: border-box;
+	position: absolute;
+	left:30%;
+	display: inline-block;
+	box-sizing: border-box;
+	width:70%;
+	float: right;	
+	background-color: #6ef4ea;
+
+	height:555px;
+}
+#swara{
+	
+	width:50%;
+	float: right;
+	margin:4%;
+}
+
+#text{
+	box-sizing: border-box;
+	position: absolute;
+	left:21%;
+	width:30%;
+	/*color: #6f7378;*/
+	color:white;
+	font-family: myFont;
+	margin:auto;
+	margin-top: 10%;
+}
+#name{
+	font-size:505%;
+}
+#web{
+	font-size: 205%;
+	color: #6f7378;
+	font-weight: bold;
+}
+span{
+	color:#8feae5;
+}
+p{
+	margin:0;
+}
+aside{
+	box-sizing: border-box;
+	position: absolute;
+	top:450px;
+	/*border: solid white 1px;*/
+	width: 5%;
+}
+.social{
+	height: 40px;
+	width: 40px;
+}
